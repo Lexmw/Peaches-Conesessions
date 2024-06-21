@@ -50,7 +50,7 @@ export default () => {
         }
       /> */}
       <AboutUsFeature
-        id="about-us"
+        
         subheading={<Subheading>About ACM-W, ACM and 614ACMW </Subheading>}
         heading="614 ACM-W the Professional Chapter"
         description="ACM-W (ACM's Women in Computing) advocates internationally for the full engagement of women in all aspects of the computing field, providing a wide range of programs and services to members and working in the larger community to advance the contributions of technical women.
@@ -61,7 +61,7 @@ export default () => {
         primaryButtonText="See Portfolio"
         imageSrc= {require("images/logo-sq-violet-trans.png")}
       />
-      <TeamCardGrid id="team" subheading={<Subheading>Our Team</Subheading>} />
+      <TeamCardGrid  subheading={<Subheading>Our Team</Subheading>} />
       {/* <FAQ
         heading={
           <>
@@ -69,7 +69,7 @@ export default () => {
           </>
         }
       /> */}
-      <GetStarted id="join"/>
+      <GetStarted />
       {/* <Footer /> */}
       {/* </Container> */}
     </AnimationRevealPage>
