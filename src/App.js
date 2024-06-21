@@ -105,6 +105,7 @@ import MainLandingPage from "MainLandingPage.js";
 import ThankYouPage from "ThankYouPage.js";
 import ServiceLandingPage from "demos/ServiceLandingPage";
 import ACMLandingPage from "pages/ACMLandingPage";
+import AboutUs from "pages/AboutUs";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -121,6 +122,7 @@ export default function App() {
           <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
           <Route path="/components/:type/:name" element={<ComponentRenderer />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
+          <Route path="/about-us" element={<AboutUs />} />
           <Route path="/" element={<ACMLandingPage />} />
         </Routes>
       </Router>

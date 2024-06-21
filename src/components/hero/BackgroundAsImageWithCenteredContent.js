@@ -2,6 +2,8 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
+import hero from "../../images/614-hero.png"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Header, {
   NavLink,
@@ -25,7 +27,7 @@ const StyledHeader = styled(Header)`
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`;
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
-  background-image: require("../../images/614-hero.png");
+  background-image: url(${hero});
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
@@ -46,10 +48,10 @@ export default () => {
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="#">Home</NavLink>
-      <NavLink href="#">Membership</NavLink>
-      <NavLink href="#">Events</NavLink>
+      <NavLink href="#membership">Membership</NavLink>
+      <NavLink href="#events">Events</NavLink>
       <NavLink href="#">Contact</NavLink>
-      <NavLink href="#">About</NavLink>
+      <NavLink href="#about-us">About</NavLink>
     </NavLinks>,
     <NavLinks key={2}>
       <PrimaryLink href="/#">Join Today</PrimaryLink>
@@ -67,8 +69,7 @@ export default () => {
             <br />
             Professional women in computing
           </Heading>
-          
-          <PrimaryAction>Search Events</PrimaryAction>
+          <PrimaryAction>Upcoming Events</PrimaryAction>
         </Content>
       </HeroContainer>
     </Container>
