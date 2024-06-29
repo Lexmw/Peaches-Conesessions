@@ -117,12 +117,12 @@ export default function App() {
   return (
     <>
       <GlobalStyles />
-      <Router >
+      <Router basename="https://lexmw.github.io/Peaches-Conesessions">
         <Routes>
-          <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
+          {/* <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
           <Route path="/components/:type/:name" element={<ComponentRenderer />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
-          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/about-us" element={<AboutUs />} /> */}
           <Route path="/" element={<ACMLandingPage />} />
         </Routes>
       </Router>
