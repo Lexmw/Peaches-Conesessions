@@ -117,7 +117,7 @@ export default function App() {
   return (
     <>
       <GlobalStyles />
-      <Router basename="https://lexmw.github.io/Peaches-Conesessions">
+      <Router basename="/Peaches-Conesessions">
         <Routes>
           {/* <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
           <Route path="/components/:type/:name" element={<ComponentRenderer />} />
