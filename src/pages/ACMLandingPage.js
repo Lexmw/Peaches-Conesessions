@@ -14,7 +14,7 @@ const Subheading = tw.span`uppercase tracking-wider text-sm`;
 
 export default () => {
   return (
-    <AnimationRevealPage>
+    <AnimationRevealPage disabled>
       <Hero />
       <Features id="membership"
         heading={

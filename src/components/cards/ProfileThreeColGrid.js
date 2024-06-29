@@ -58,7 +58,7 @@ export default ({
       imageSrc:
         "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
       position: "Chair",
-      name: "Bettina Bai",
+      name: "Bettina Bair",
       description:
         "Retired, senior lecturer in the Computer Science & Engineering department of Ohio State University, founder of the Ohio Celebration of Women in Computing (OCWiC) and OSU ACM-W Student Chapter",
       links: [
