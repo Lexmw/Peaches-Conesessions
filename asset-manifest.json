@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Peaches-Conesessions/static/js/main.6fa2b2b0.js",
+    "main.js": "/Peaches-Conesessions/static/js/main.fa157dcd.js",
     "static/media/614-hero.png": "/Peaches-Conesessions/static/media/614-hero.c4d5e21be2c24fa13490.png",
     "static/media/logo-sq-violet-trans.png": "/Peaches-Conesessions/static/media/logo-sq-violet-trans.8ca304a8cc2bd5fbdfda.png",
     "static/media/team-illustration-2.svg": "/Peaches-Conesessions/static/media/team-illustration-2.76aa0427e037826d4453f8791ee544e3.svg",
@@ -19,9 +19,9 @@
     "static/media/x.svg": "/Peaches-Conesessions/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
     "static/media/fast-icon.svg": "/Peaches-Conesessions/static/media/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg",
     "static/media/linkedin-icon.svg": "/Peaches-Conesessions/static/media/linkedin-icon.962df6cec61e5366889690a28a03b953.svg",
-    "main.6fa2b2b0.js.map": "/Peaches-Conesessions/static/js/main.6fa2b2b0.js.map"
+    "main.fa157dcd.js.map": "/Peaches-Conesessions/static/js/main.fa157dcd.js.map"
   },
   "entrypoints": [
-    "static/js/main.6fa2b2b0.js"
+    "static/js/main.fa157dcd.js"
   ]
 }
